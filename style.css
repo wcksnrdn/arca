@@ -1,27 +1,46 @@
 body {
-    background-color: rgb(87, 7, 44);
+    background-image:url(pink.jpg);
+    background-size: cover;
+    background-repeat:repeat;
+    background-position-x: center;
 
   }
   
   h1 {
-    color: rgba(240, 238, 238, 0.993);
+    color: rebeccapurple;
     font-family: 'Times New Roman';
     text-align: center;
-    font-size: 45px;
+    font-size: 60px;
     
   }
   
   p1 {
-    color: rgb(250, 251, 252);
-    font-family: 'Franklin Gothic Medium';
-    font-size: 25px;
+    color: rebeccapurple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
   }
-  
+
+  p2 {
+    color: rebeccapurple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: left;
+  }
+
+.post-image-first {
+    max-height: 300px;
+    border-radius: 150px;
+    margin: 1mm;
+    align-items: center;
+    box-shadow: 5px 5px 50px black;
+}  
+
+
 .post-image {
     align-items: center;
     margin: 1mm;
     max-height: 300px;
     border-radius: 200px;
     margin-bottom: 3mm;
-    box-shadow: 5px 5px 50px pink;
+    box-shadow: 5px 5px 50px black;
 }
