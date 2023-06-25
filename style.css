@@ -5,31 +5,23 @@ body {
   
   h1 {
     color: rgba(240, 238, 238, 0.993);
-    font-family: monospace;
+    font-family: 'Times New Roman';
     text-align: center;
-    font-size: 35px;
+    font-size: 45px;
+    
   }
   
   p1 {
     color: rgb(250, 251, 252);
     font-family: 'Franklin Gothic Medium';
-    font-size: 18px;
+    font-size: 25px;
   }
   
 .post-image {
-    width: 2;
-    border-color: rgb(9, 95, 95);
-    border-radius: 150px;
+    align-items: center;
+    margin: 1mm;
+    max-height: 300px;
+    border-radius: 200px;
     margin-bottom: 3mm;
-    
-}
-.post-image2 {
-    border-radius: 150px;
-    
-}
-.post-image3 {
-    border-radius: 150px;
-}
-.post-image4 {
-    border-radius: 150px;
+    box-shadow: 5px 5px 50px pink;
 }
